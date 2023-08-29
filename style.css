@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header section */
+
+.flexible {
+    display: flex;
+    background-color: rgb(231, 219, 223);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text {
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#head-text {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.p-1 {
+    padding-bottom: 30px;
+}
+
+.width {
+    width: 50%;
+}
+
+.width img {
+    width: 80%;
+}
+
+button {
+    text-decoration: none;
+    background-color: rgb(213, 59, 75);
+    color: white;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-weight: 800;
+    border: none;
+}
+
+
+
+/* main 1st sect */
+
+.featured {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.featured-text {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.featured-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.featured-flower {
+    display: flex;
+}
+
+.flower-item {
+    margin: 2%;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* box-shadow: 10px 10px 10px rgb(185, 156, 156); */
+    border-radius: 53% 47% 0% 0% / 38% 38% 10% 10%;
+}
+
+.flower-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.flower-1 {
+    background-color: pink;
+}
+
+.flower-2 {
+    background-color: rgb(72, 180, 226);
+}
+
+.flower-3 {
+    background-color: rgb(190, 144, 152);
+}
+
+.h-4 {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+/* main 2nd sect */
+.deal-sect {
+    display: flex;
+    margin-top: 10%;
+    background-color: bisque;
+    align-items: center;
+}
+
+.deal-text {
+    padding-left: 15%;
+    padding-right: 5%;
+
+}
+
+.deal-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.deal-text p {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.deal-text button {
+    margin-left: 37%;
+}
+
+span {
+    color: red;
+}
+
+
+
+/* main 3rd sect */
+.insta {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.insta h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.insta-flower {
+    display: flex;
+    margin: 5%;
+}
+
+.insta-flower img {
+    width: 95%;
+}
+
+
+/* main 4th sect */
+.contact-sect {
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 10%;
+    padding: 100px;
+}
+
+.contact-sect h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.contact-sect p {
+    padding-bottom: 20px;
+}
+
+input {
+    padding: 20px 200px;
+    border: none;
+}
+
+#Subscribe {
+    padding: 20px 30px;
+    margin-left: 10px;
+}
+
+
+
+/* extra item */
+.extra {
+    display: flex;
+    margin: 80px;
+}
+
+.extra-item {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+}
+
+.extra-item img {
+    width: 50%;
+}
+
+#one {
+    border-left: 7px solid;
+    border-right: 7px solid;
+    border-image: linear-gradient(cyan, yellow);
+    border-image-slice: 1;
+}
+
+#two {
+    border-left: 7px solid;
+    border-right: 7px solid;
+    border-image: linear-gradient(green, red);
+    border-image-slice: 1;
+    text-align: center;
+}
+
+
+/* footer */
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+footer h1 {
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+footer p {
+    padding-bottom: 30px;
+}
