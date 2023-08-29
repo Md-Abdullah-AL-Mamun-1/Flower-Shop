@@ -158,7 +158,11 @@ span {
 }
 
 .insta-flower img {
-    width: 95%;
+    width: 100%;
+}
+
+.insta-flowers {
+    margin: 2%;
 }
 
 
